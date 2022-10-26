@@ -1,0 +1,502 @@
+@media screen and (max-width: 1300px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .button-phone {
+        display: none;
+    }
+
+    .wrapper-header nav {
+        display: none;
+    }
+
+    .button-phone {
+        display: none;
+    }
+
+    .wrapper-navigation-projects {
+        display: none;
+    }
+
+    .gallery {
+        display: none;
+    }
+
+    .team {
+        display: none;
+    }
+
+    .reviews-gallery-two {
+        display: none;
+    }
+
+    .our-clients {
+        display: none;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .reviews-ul {
+        display: none;
+    }
+
+    .reviews-gallery-two {
+        display: none;
+    }
+
+    .pointer-svg {
+        display: none;
+    }
+
+    .online-control-vidio {
+        display: none;
+    }
+
+    .form-one-checkbox {
+        display: none;
+    }
+
+    .wrapper {
+        max-width: 375px;
+    }
+
+    .wrapper-header {
+        height: 57px;
+        max-width: 340px;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+    
+    .wrapper-measurement {
+        margin-top: 0px;
+    }
+
+    .phone-link {
+        margin: 0;
+        color: white;
+    }
+
+    .turnkey-repair {
+        height: auto;
+        padding: 0;
+        padding-top: 85px;
+        padding-bottom: 35px;
+    }
+    
+    .main-title {
+        font-size: 23px;
+        line-height: 31px;
+        height: 60px;
+        width: 339px;
+        margin-left: 18px;
+    }
+
+    .turnkey-repair p {
+        font-size: 14px;
+        line-height: 19px;
+        height: 94px;
+        width: 339px;
+        margin-top: 16px;
+        margin-bottom: 32px;
+        margin-left: 18px;
+    }
+
+    .button-cost {
+        height: 51px;
+        width: 339px;
+        margin: 0;
+        margin-bottom: 26px;
+        border-radius: 0;
+        margin-left: 18px;
+    }
+
+    .completed-projects-wrapper {
+        padding: 0;
+    }
+
+    .completed-projects-title {
+        width: 253px;
+        height: 66px;
+        font-size: 22px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: -0.07em;
+        margin-left: 61px;
+        margin-top: 36px;
+        margin-bottom: 22px;
+    }
+
+    .completed-projects-text {
+        width: 331px;
+        height: 86px;
+        font-size: 11px;
+        line-height: 17px;
+        margin: 0;
+        text-align: center;
+        margin-left: 32px;
+        margin-bottom: 36px;
+    }
+
+    .completed-projects-title-wrapper {
+        margin-bottom: 0;
+    }
+
+    .gallery-mob {
+        display: block;
+        position: relative;
+        width: 340px;
+        height: 241px;
+        margin-left: 18px;
+    }
+
+    .gallery-mob img {
+        width: 100%;
+        height: auto;
+    }
+
+    .gallery-mob button {
+        background: none;
+        border: none;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        padding: 0;
+        cursor: pointer;
+    }
+    
+    .gallery-mob button:hover {
+        transition: 0.5s;
+        box-shadow: 5px 10px 15px rgba(227, 184, 115, 0.5);
+    }
+
+    .gallery-mob button:active {
+        box-sizing: border-box;
+        border: 3px solid white;
+        transition: 0.1s; 
+}
+
+    .button-gallery-mob-r {
+        display: block;
+        position: absolute;
+        right: 13px;
+        top: 103px;
+    }
+
+    .button-gallery-mob-l {
+        display: block;
+        position: absolute;
+        left: 14px;
+        top: 103px;
+    }
+
+    .completed-projects-minititle {
+        font-size: 14px;
+        line-height: 19px;  
+    }
+
+    .completed-projects-minitext {    
+        font-size: 11px;
+        line-height: 18px;
+    }
+
+    .description-city p {
+        line-height: 15px;
+    }
+
+    .description {
+        margin-left: 18px;
+    }
+
+    .description-one {
+        margin-top: 37px;
+        margin-bottom: 0;
+    }
+
+    .description-one div h3 {
+        height: 20px;
+        margin-bottom: 11px;
+    }
+
+    .description-one div p {
+        height: 37px;
+        margin-bottom: 27px;
+    }
+
+    .description-two div h3 {
+        height: 18px;
+        margin-bottom: 13px;
+    }
+
+    .description-two div p {
+        height: 19px;
+        margin-bottom: 58px;
+    }
+
+    .description-city {
+        width: 129px;
+        margin-right: 31px;
+    }
+
+    .description-two {
+        margin-bottom: 0;
+    }
+
+    .projects {
+        padding-bottom: 826px;
+    }
+
+    .online-control {
+        margin-top: -826px;
+    }
+
+    .online-control-title {
+        width: 224px;
+        height: 26px;
+        font-size: 22px;
+        line-height: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-left: 76px;
+    }
+
+    .online-control-svg {
+        margin-top: 0;
+        margin-bottom: 40px;
+
+    }
+
+    .online-control-vidio-mob {
+        display: block;
+        position: relative;
+        width: 340px;
+        height: 207px;
+        margin-bottom: 26px;
+    }
+
+    .online-control-vidio-mob img {
+        width: 100%;
+        height: auto;
+    }
+
+    .online-control-vidio-mob button {
+        display: block;
+        position: absolute;
+        background: none;
+        border: none;
+        padding: 0;
+        width: 37px;
+        height: 37px;
+        top: 85px;
+        left: 152px;
+        border-radius: 50%;
+    }
+
+    .online-control-vidio-mob button:hover {
+        transition: 0.5s;
+        box-shadow: 5px 10px 15px rgba(227, 184, 115, 0.5);
+    }
+
+    .online-control-vidio-mob button:active {
+        box-sizing: border-box;
+        border: 3px solid white;
+        transition: 0.1s; 
+}
+
+    .hr-line-online-two {
+        margin-top: 0;
+        margin-bottom: 22px;
+
+    }
+
+    .online-control-p-text {
+        width: 340px;
+        height: 107px;
+        margin-bottom: 61px;
+        font-size: 11px;
+        line-height: 19px;
+        text-align: center;
+        color: white;
+    }
+
+    .form-one {
+        display: block;
+        margin: 0;
+        width: 340px;
+        height: 311px;
+        margin-left: 18px;
+    }
+
+    .form-one-label {
+        font-size: 13px;
+        line-height: 21px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .form-one-input {
+        background-color: #131313;
+        width: 340px;
+        font-size: 14px;
+        line-height: 19px;
+        border-color: white;
+        color: #FFFFFF;
+    }
+
+    .form-one-input::placeholder {
+        color: white;
+    }
+
+    .form-one-wrapper-input {
+        width: 340px;
+        height: 44px;
+    }
+
+    .form-one-wrapper-one {
+        margin-bottom: 64px;
+    }
+
+    .form-one-wrapper-two {
+        margin-bottom: 27px;
+    }
+
+    .form-one-checkbox-mob {
+        display: flex;
+        height: 18px;
+        color: white;
+        margin-bottom: 62px;
+        font-size: 14px;
+        line-height: 23px;
+    }
+    
+    .button-form-one {
+        width: 340px;
+        height: 51px;
+    }
+
+    .types-of-repair {
+        margin-top: 0;
+    }
+
+    .types-of-repair-wrapper {
+        display: block;
+    }
+
+    .types-of-repair-title {
+        width: 257px;
+        height: 26px;
+        text-align: center;
+        margin-top: 58px;
+        margin-bottom: 17px;
+    }
+
+    .card-wrapper {
+        width: 340px;
+        height: 484px;
+        margin-left: 18px;
+        margin-bottom: 59px;
+    }
+    
+    .card-wrapper-img {
+        width: 340px;
+        height: 365px;
+    }
+
+    .card-wrapper-ul {
+        width: 270px;
+        height: 220px;
+        margin: 0;
+        margin-top: -148px;
+        padding: 0;
+        padding-top: 21px;
+
+    }
+
+    .button-types-of-repair {
+        width: 190px;
+        height: 40px;
+        margin: 0;
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .card-wrapper-button {
+        margin: 0;
+        font-size: 15px;
+        line-height: 21px;
+        margin-top: -20px;
+    }
+
+    .card-wrapper-ul-title {
+        height: 21px;
+        margin-left: 31px;
+        margin-bottom: 10px;
+        font-size: 15px;
+        line-height: 21px;
+        color: #363636;
+    }
+
+    .card-wrapper-ul-list {
+        height: 152px;
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .reviews {
+        display: block;
+        background-image: none;
+        background-color: white;
+        padding: 0;
+        padding-bottom: 207px;
+    }
+
+    .reviews-flex {
+        display: block;
+    }
+
+    .reviews-ul-wrapper {
+        height: auto;
+        width: 375px;
+        padding: 0;
+    }
+
+    .reviews-ul-title {
+        width: 340px;
+        height: 66px;
+        font-size: 22px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .gallery-mob-two {
+        width: 340px;
+        height: 242px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .contacts-form {
+        display: none;
+    }
+
+    .contacts {
+        display: none;
+    }
+}
