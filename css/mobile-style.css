@@ -603,6 +603,7 @@
     }
 
     .reviews-ul-title {
+        position: static;
         width: 340px;
         height: 66px;
         font-size: 22px;
