@@ -14,7 +14,7 @@ body {
     font-weight: 400;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
 }
 
 .wrapper {
@@ -174,6 +174,62 @@ body {
     margin: 0;
 }
 
+.completed-projects-arrow {
+    width: 206px;
+    height: 14px;
+    display: flex;
+}
+
+.completed-projects-arrow-l {
+    display: block;
+    border: none;
+    background: none;
+    padding: 0;
+    width: 41px;
+    height: 14px;
+    margin-right: 29px;
+}
+
+.completed-projects-arrow-r {
+    display: block;
+    border: none;
+    background: none;   
+    padding: 0;
+    width: 41px;
+    height: 14px;
+    margin-left: 29px;
+}
+
+.completed-projects-arrow-l:active, .completed-projects-arrow-r:active {
+    background-color:  rgba(255, 255, 255, 0.3);
+} 
+
+
+.completed-projects-arrow-point-one {
+    display: block;
+    border: none;
+    padding: 0;
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.completed-projects-arrow-point {
+    display: block;
+    border: none;
+    padding: 0;
+    background-color:  rgba(255, 255, 255, 0.3);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: 17px;
+}
+
+.completed-projects-arrow-point:hover {
+    background-color: white;
+}
+
 .description {
     display: flex;
 }
@@ -215,7 +271,39 @@ body {
 }
 
 .online-control-vidio {
-    max-width: 817px;
+    width: 817px;
+    height: 434px;
+    position: relative;
+}
+
+.online-control-vidio button {
+    display: block;
+    position: absolute;
+    background: none;
+    border: none;
+    padding: 0;
+    width: 85px;
+    height: 85px;
+    top: 174px;
+    left: 365px;
+    border-radius: 50%;
+    box-shadow: 0px 5px 30px rgba(227, 184, 115, 0.2);
+}
+
+.online-control-vidio button img {
+    width: 100%;
+    height: 100%;
+}
+
+.online-control-vidio button:hover {
+    transition: 0.5s;
+    box-shadow: 5px 10px 15px rgba(227, 184, 115, 0.5);
+}
+
+.online-control-vidio button:active {
+    box-sizing: border-box;
+    border: 3px solid white;
+    transition: 0.2s; 
 }
 
 .online-control-vidio-mob {
@@ -374,7 +462,7 @@ body {
     text-decoration: none;
 }
 
-.reviews-ul a:hover {
+.reviews-ul a:hover, a:active {
     color: #E3B873;
     border-bottom-style: inset;
     border-bottom-width: 1px;
@@ -550,9 +638,27 @@ body {
     margin-bottom: 43px;
 }
 
-.contacts-svg img {
+.contacts-svg button {
+    display: block;
+    background: none;
+    border: none;
+    padding: 0;
+    width: 28px;
+    height: 28px;
     margin-right: 8px;
     margin-left: 8px;
+    border-radius: 50%;
+}
+
+.contacts-svg button img {
+    width: 100%;
+    height: 100%;
+}
+
+.contacts-svg button:active {
+    box-sizing: border-box;
+    border: 2px solid white;
+    transition: 0.2s; 
 }
 
 .contacts-map {
@@ -726,7 +832,7 @@ body {
 .button:active {
     box-sizing: border-box;
     border: 3px solid white;
-    transition: 0.1s;    
+    transition: 0.2s;    
 }
 
 .button-oval {
