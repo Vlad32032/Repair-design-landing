@@ -532,11 +532,15 @@ body {
 }
 
 .contacts-title {
+    width: 589px;
+    height: 51px;
     font-size: 20px;
     line-height: 28px;
     text-align: center;
     text-transform: uppercase;
+    margin: 0 auto;
     margin-top: 52px;
+
 }
 
 .contacts-svg {
@@ -711,6 +715,7 @@ body {
     text-transform: uppercase;
     font-weight: 400;
     cursor: pointer;
+    font-family: 'Nunito Sans';
 }
 
 .button:hover {
